@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  width: 1000px;
+  height: 800px;
+}
+
+.user-list{
+  width: 30%;
+  height: 100%;
+  border-right: 2px solid black;
+}
+
+.messages-main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.messages-list {
+  height: 90%;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
+.messages-box {
+  width: 100%;
+}
